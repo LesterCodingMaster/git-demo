@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 
+
 <body>
     <header style=background-color:lightblue>
         <h3 style=text-align:center>Coding Structures: Lesson 9 Learning Git</h3>
@@ -17,10 +18,28 @@
             </ul>
         </nav>
     </header>
-<p>Hey Whats Up?</p>
+    <form>
+        <label>Name</label>
+        <input type="text" name="name" required /> <br>
+
+        <label>Email</label>
+        <input type="email" name="email" /><br>
+
+        <select name="department">
+            <option value="ordering" selected>Ordering</option>
+            <option value="shipping">Shipping</option>
+            <option value="cost-service">Customer Service</option>
+        </select><br>
+
+        <label>Message</label>
+        <textarea rows="15" cols="40" name="message"></textarea>
+
+        <button name="submit" type="submit">Submit</button>
+    </form>
+    <p>Hey Whats Up?</p>
 </body>
 <footer style=background-color:lightblue>
     <h3 style=text-align:center>This is a Footer!</h3>
 </footer>
-</html>
 
+</html>
